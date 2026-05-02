@@ -1,0 +1,182 @@
+[
+  {
+    "id": "faq_001",
+    "topics": ["documents", "polling_day"],
+    "keywords": ["id", "identity", "carry", "bring", "photo id", "what id", "document"],
+    "question": "What ID do I need to carry to vote?",
+    "answer": "You can use your Voter ID card (EPIC) or any one of 12 ECI-approved alternate photo identity documents: (1) Aadhaar Card, (2) MNREGA Job Card, (3) Bank or Post Office Passbook with photograph, (4) Health Insurance Smart Card (Ministry of Labour), (5) Driving Licence, (6) PAN Card, (7) NPR Smart Card, (8) Indian Passport, (9) Pension document with photograph, (10) Service Identity Card with photo from Central/State Govt or PSU, (11) MP/MLA/MLC identity card, (12) Unique Disability ID (UDID) Card. You only need ONE of these documents.",
+    "source": "Election Commission of India Order No. 23/INST/2019/EPS",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_002",
+    "topics": ["documents", "polling_day"],
+    "keywords": ["lost", "lost voter id", "without voter id", "no voter id", "misplaced", "cant find"],
+    "question": "I lost my Voter ID card. Can I still vote?",
+    "answer": "Yes. You can vote using any of the 12 ECI-approved alternate photo identity documents. You do not need your Voter ID card specifically. Valid alternatives include your Aadhaar card, PAN card, driving licence, or Indian passport. Your name must be on the electoral roll — the ID is only for identity verification at the booth.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_003",
+    "topics": ["eligibility", "registration"],
+    "keywords": ["name not found", "name missing", "not on list", "not in voter list", "electoral roll"],
+    "question": "My name is not on the voter list. What should I do?",
+    "answer": "If your name is missing from the electoral roll, submit Form 6 (new registration) immediately at voters.eci.gov.in. If the election has already been announced and the roll is finalised, you will not be able to vote in that election but your registration will be active for the next. You can also contact your Booth Level Officer (BLO) or call the Voter Helpline at 1950 for assistance.",
+    "source": "Election Commission of India",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "faq_004",
+    "topics": ["eligibility", "registration"],
+    "keywords": ["check name", "find name", "verify name", "search electoral roll", "am i registered"],
+    "question": "How do I check if my name is on the electoral roll?",
+    "answer": "Go to electoralsearch.eci.gov.in and search using either: (a) your EPIC number, or (b) your name, date of birth, and state. The result will show your registration status, constituency, and assigned polling booth. You can also call the Voter Helpline at 1950 or use the Voter Helpline mobile app.",
+    "source": "Election Commission of India",
+    "source_url": "https://electoralsearch.eci.gov.in/"
+  },
+  {
+    "id": "faq_005",
+    "topics": ["evm", "polling_day"],
+    "keywords": ["nota", "none of the above", "reject all", "dont want to vote", "no candidate"],
+    "question": "What is NOTA and how do I use it?",
+    "answer": "NOTA stands for None Of The Above. It is the last option on every EVM ballot, represented by a specific symbol. If you do not wish to vote for any of the contesting candidates, press the NOTA button. Your vote is officially recorded and counted, but it does not benefit any candidate. NOTA was introduced by the Supreme Court of India in 2013.",
+    "source": "Supreme Court of India Order, 2013 and ECI Guidelines",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_006",
+    "topics": ["evm"],
+    "keywords": ["vvpat", "paper slip", "verify vote", "confirm vote", "see my vote"],
+    "question": "What is VVPAT and how does it work?",
+    "answer": "VVPAT stands for Voter Verifiable Paper Audit Trail. It is a machine connected to the EVM that prints a paper slip showing the candidate's name, party symbol, and serial number after you cast your vote. The slip is visible through a transparent window for exactly 7 seconds, then automatically drops into a sealed box. This allows you to verify your vote was recorded correctly without revealing it to anyone else.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/getting-to-know-evm-vvpat/"
+  },
+  {
+    "id": "faq_007",
+    "topics": ["polling_day", "eligibility"],
+    "keywords": ["away", "not in city", "travel", "out of town", "different city", "outside constituency"],
+    "question": "Can I vote if I am away from my constituency on polling day?",
+    "answer": "No. Indian elections use constituency-based voting — you can only vote at your assigned polling booth in your registered constituency. There is no general proxy or remote voting option for ordinary voters. If you are an essential services worker (armed forces, police, government staff on election duty), you may be eligible for a postal ballot. Contact your employer or the ECI for details.",
+    "source": "Representation of the People Act, 1951",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_008",
+    "topics": ["polling_day"],
+    "keywords": ["postal ballot", "absentee", "mail vote", "vote by post"],
+    "question": "What is a postal ballot and who can use it?",
+    "answer": "A postal ballot allows certain categories of voters to vote by post. Currently eligible categories include: Members of the Armed Forces and their spouses, Members of the Armed Police Forces serving outside their state, Government officials posted abroad, and persons with disabilities (in notified constituencies). The ECI periodically extends postal ballot eligibility. General voters cannot use postal ballots.",
+    "source": "Conduct of Elections Rules, 1961",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_009",
+    "topics": ["polling_day"],
+    "keywords": ["time", "timing", "open", "close", "hours", "when does booth open", "what time"],
+    "question": "What time do polling booths open and close?",
+    "answer": "Polling booths generally open at 7:00 AM and close at 6:00 PM. However, timings can vary based on the state and the specific election. The ECI publishes exact timings in the official election notification. Anyone who is in the queue before 6:00 PM is entitled to vote, even if counting is delayed.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_010",
+    "topics": ["polling_day"],
+    "keywords": ["phone", "mobile", "camera", "inside booth", "carry phone", "smartphone"],
+    "question": "Can I carry my phone inside the polling booth?",
+    "answer": "No. Mobile phones, cameras, and any recording devices are strictly prohibited inside the polling booth. This is to protect the secrecy of the ballot and prevent vote-buying or intimidation. You can carry your phone to the polling station but must leave it outside the voting compartment.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_011",
+    "topics": ["general"],
+    "keywords": ["model code of conduct", "mcc", "what is mcc", "rules during election"],
+    "question": "What is the Model Code of Conduct?",
+    "answer": "The Model Code of Conduct (MCC) is a set of guidelines issued by the Election Commission of India that governs the behaviour of political parties, candidates, and the ruling government during elections. It comes into effect the moment the election schedule is announced. Key provisions: the ruling government cannot announce new schemes or projects, candidates cannot distribute cash or gifts, all parties must conduct campaigns peacefully, and government machinery cannot be used for party work.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/model-code-of-conduct/"
+  },
+  {
+    "id": "faq_012",
+    "topics": ["evm"],
+    "keywords": ["evm", "electronic voting machine", "tamper", "hack", "reliable", "trust evm", "safe"],
+    "question": "What is an EVM and is it reliable?",
+    "answer": "An EVM (Electronic Voting Machine) is a standalone electronic device used to cast and count votes. It is not connected to the internet or any network — making it impossible to hack remotely. EVMs are manufactured by BEL and ECIL under ECI supervision. Each machine is sealed and carries unique serial numbers. Candidates can challenge EVMs through the mock poll process before voting begins. The Supreme Court of India has upheld EVM validity multiple times.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/getting-to-know-evm-vvpat/"
+  },
+  {
+    "id": "faq_013",
+    "topics": ["registration"],
+    "keywords": ["change address", "new address", "moved", "transfer", "shifted", "update address"],
+    "question": "How do I update my address on my voter ID?",
+    "answer": "If you have moved within the same constituency: submit Form 8A at voters.eci.gov.in to update your address. If you have moved to a different constituency: submit Form 7 to delete your name from the old constituency, then submit Form 6 to register in the new constituency. Both can be done online at voters.eci.gov.in.",
+    "source": "Registration of Electors Rules, 1960",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "faq_014",
+    "topics": ["general"],
+    "keywords": ["lok sabha", "vidhan sabha", "difference", "general election", "state election", "assembly"],
+    "question": "What is the difference between Lok Sabha and Vidhan Sabha elections?",
+    "answer": "Lok Sabha elections (General Elections) are held every 5 years to elect Members of Parliament (MPs) to the lower house of the Indian Parliament. There are 543 Lok Sabha constituencies across India. Vidhan Sabha elections are held every 5 years to elect Members of Legislative Assembly (MLAs) to the state legislature. Each state has its own Vidhan Sabha. Both elections use the same voter roll and the same EVMs.",
+    "source": "Constitution of India and Representation of the People Act",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_015",
+    "topics": ["polling_day"],
+    "keywords": ["vote twice", "vote again", "vote more than once", "double vote"],
+    "question": "How many times can I vote in one election?",
+    "answer": "You can vote only once per election. After you vote, your left index finger is marked with indelible ink that cannot be washed off for several weeks. This prevents double voting. If you attempt to vote again at another booth, the ink mark will be detected and you will be refused. Attempting to vote twice is a criminal offence.",
+    "source": "Representation of the People Act, 1951",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_016",
+    "topics": ["polling_day"],
+    "keywords": ["impersonation", "someone else voting", "fraud", "fake voter", "identity theft"],
+    "question": "What happens if someone tries to vote in my name?",
+    "answer": "Voter impersonation is a serious criminal offence. If you arrive and are told someone has already voted in your name, inform the Presiding Officer immediately. You have the right to file a complaint. The Presiding Officer can issue you a Tendered Vote (recorded separately). The impostor can be prosecuted. You should also report it to the ECI helpline at 1950 and the local police.",
+    "source": "Representation of the People Act, 1951",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_017",
+    "topics": ["registration", "general"],
+    "keywords": ["blo", "booth level officer", "who is blo", "local officer"],
+    "question": "What is a Booth Level Officer (BLO)?",
+    "answer": "A Booth Level Officer (BLO) is a government official assigned to each polling booth area. The BLO is responsible for maintaining the accuracy of the electoral roll in that area. They conduct house-to-house verification, help citizens register, and update deletions and corrections. If you have trouble registering online, your local BLO can assist you in person.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_018",
+    "topics": ["results", "general"],
+    "keywords": ["how winner decided", "fptp", "first past post", "majority", "who wins", "winning"],
+    "question": "How is the winner of an election decided?",
+    "answer": "India uses the First Past The Post (FPTP) system. The candidate who receives the highest number of votes in a constituency wins — they do not need to win a majority (more than 50%). For example, if Candidate A gets 35,000 votes, Candidate B gets 30,000 votes, and Candidate C gets 25,000 votes, Candidate A wins even without a majority. This system is used for both Lok Sabha and Vidhan Sabha elections.",
+    "source": "Representation of the People Act, 1951",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "faq_019",
+    "topics": ["general"],
+    "keywords": ["helpline", "voter helpline", "contact eci", "1950", "help number", "call"],
+    "question": "What is the Voter Helpline number?",
+    "answer": "The National Voter Helpline number is 1950. You can call this number to: check your name on the electoral roll, find your polling booth, get information about voter registration, report electoral malpractice, or get help with any election-related issue. The helpline operates in multiple regional languages and is available during election periods.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/contact-us/"
+  },
+  {
+    "id": "faq_020",
+    "topics": ["eligibility", "registration"],
+    "keywords": ["just turned 18", "new voter", "first time voter", "how to register", "first vote"],
+    "question": "How do I register if I just turned 18?",
+    "answer": "To register as a first-time voter: (1) Go to voters.eci.gov.in, (2) Click 'Register as New Voter', (3) Fill Form 6 with your personal details, address, and a recent photograph, (4) Upload age proof (birth certificate, school certificate, or PAN card) and address proof (Aadhaar card or utility bill), (5) Submit and note your application reference number. You can track your application status online. Your EPIC (Voter ID) will be issued after verification.",
+    "source": "Election Commission of India",
+    "source_url": "https://voters.eci.gov.in/"
+  }
+]

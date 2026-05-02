@@ -1,0 +1,137 @@
+[
+  {
+    "id": "elig_001",
+    "category": "citizenship",
+    "question": "Do I need to be an Indian citizen to vote?",
+    "rule": "Only Indian citizens are eligible to vote in Indian elections.",
+    "details": "Foreign nationals, including Overseas Citizens of India (OCI), are not entitled to vote in Indian elections. Proof of citizenship may be required during registration.",
+    "source": "Section 16, Representation of the People Act, 1950",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_002",
+    "category": "age",
+    "question": "What is the minimum age to vote in India?",
+    "rule": "A person must be at least 18 years of age on the qualifying date to be eligible to vote.",
+    "details": "The qualifying date is January 1st of the year in which the electoral roll is prepared or revised. If you turn 18 after January 1st, you become eligible in the next revision cycle.",
+    "source": "Section 19, Representation of the People Act, 1950",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_003",
+    "category": "age",
+    "question": "I am 17 years old. When can I register to vote?",
+    "rule": "You can apply for voter registration before turning 18, but your registration will only be active from the date you turn 18.",
+    "details": "The ECI allows advance applications. Your name will be added to the electoral roll in the next update after your 18th birthday. You can apply via Form 6 on the NVSP portal.",
+    "source": "Election Commission of India Guidelines",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "elig_004",
+    "category": "residence",
+    "question": "What does ordinary residence mean for voter registration?",
+    "rule": "A voter must be ordinarily resident in the constituency where they wish to register.",
+    "details": "Ordinary residence means the place where a person habitually lives. Temporary absence does not disqualify a person from being registered at their usual place of residence. Students, migrant workers, and others may register at their home address.",
+    "source": "Section 20, Representation of the People Act, 1950",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_005",
+    "category": "residence",
+    "question": "Can I be registered in more than one constituency?",
+    "rule": "No. A person can only be registered as a voter in one constituency at a time.",
+    "details": "Being registered in more than one place is an offense under the Representation of the People Act. If you have moved, you must delete your registration from the old constituency (Form 7) and register in the new one (Form 6).",
+    "source": "Section 17, Representation of the People Act, 1950",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_006",
+    "category": "disqualification",
+    "question": "Who is disqualified from voting?",
+    "rule": "A person is disqualified if: (1) they are of unsound mind and declared so by a competent court, or (2) they are disqualified under any law relating to corrupt practices or election offences.",
+    "details": "Being in prison does not automatically disqualify a person unless they have been convicted. Persons on bail or under trial retain their voting rights.",
+    "source": "Section 16, Representation of the People Act, 1950",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_007",
+    "category": "disqualification",
+    "question": "Can I vote if I have a criminal conviction?",
+    "rule": "A person sentenced to imprisonment for 2 or more years for a criminal offence is disqualified from voting during the period of imprisonment.",
+    "details": "After completing the sentence, voting rights are typically restored. Persons convicted of election-related offences may face additional restrictions. Undertrial prisoners and persons on bail retain voting rights.",
+    "source": "Section 11A, Representation of the People Act, 1951",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_008",
+    "category": "special_cases",
+    "question": "Can NRIs (Non-Resident Indians) vote?",
+    "rule": "NRIs who are Indian citizens are eligible to vote, but only by physically presenting themselves at their registered polling booth in India. Postal or proxy voting is not available for NRIs.",
+    "details": "NRIs must register using Form 6A on the NVSP portal. They must list their address in India as their registration address. They cannot vote remotely or via absentee ballot.",
+    "source": "Section 20A, Representation of the People Act, 1950",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_009",
+    "category": "documents",
+    "question": "What documents do I need to register as a voter?",
+    "rule": "To register (Form 6), you need: proof of age, proof of address, and a passport-size photograph.",
+    "details": "Accepted age proof: birth certificate, school leaving certificate, passport, PAN card. Accepted address proof: Aadhaar card, passport, bank passbook, utility bill, ration card, rental agreement.",
+    "source": "Election Commission of India Voter Registration Guidelines",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "elig_010",
+    "category": "documents",
+    "question": "What is the EPIC number?",
+    "rule": "EPIC stands for Elector's Photo Identity Card. The EPIC number is a unique identifier printed on your Voter ID card.",
+    "details": "You can use your EPIC number to find your name on the electoral roll, locate your polling booth, and download your e-EPIC (digital voter ID) from the NVSP portal at voters.eci.gov.in.",
+    "source": "Election Commission of India",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "elig_011",
+    "category": "documents",
+    "question": "Can I vote without my Voter ID card?",
+    "rule": "Yes. The Election Commission of India has approved 12 alternate photo identity documents that are accepted at polling booths.",
+    "details": "Accepted alternatives: (1) Aadhaar Card, (2) MNREGA Job Card, (3) Passbooks with photograph issued by Bank or Post Office, (4) Health Insurance Smart Card issued under Ministry of Labour scheme, (5) Driving Licence, (6) PAN Card, (7) Smart Card issued by RGI under NPR, (8) Indian Passport, (9) Pension document with photograph, (10) Service Identity Cards with photograph issued by Central/State Govt/PSUs/Public Limited Companies, (11) Official identity cards issued to MPs/MLAs/MLCs, (12) Unique Disability ID (UDID) Card issued by Department of Empowerment of Persons with Disabilities.",
+    "source": "Election Commission of India Order No. 23/INST/2019/EPS",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_012",
+    "category": "documents",
+    "question": "What is Form 6?",
+    "rule": "Form 6 is the application form for new voter registration in India.",
+    "details": "You can submit Form 6 online at voters.eci.gov.in or offline at your nearest Electoral Registration Office. First-time voters and those who have moved to a new constituency must use Form 6.",
+    "source": "Registration of Electors Rules, 1960",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "elig_013",
+    "category": "documents",
+    "question": "What is Form 8?",
+    "rule": "Form 8 is used to correct or update entries in an existing voter registration — such as name spelling, address, or photograph.",
+    "details": "If you have changed your address within the same constituency, or need to correct any details on your voter registration, submit Form 8 at voters.eci.gov.in. A separate form (Form 8A) handles shifting of residence within the same constituency.",
+    "source": "Registration of Electors Rules, 1960",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "elig_014",
+    "category": "special_cases",
+    "question": "What is the qualifying date for voter registration?",
+    "rule": "The qualifying date is January 1st of the year in which the electoral roll is prepared or revised.",
+    "details": "Your eligibility (especially age) is assessed as of January 1st of the revision year. However, from 2023 onwards, the ECI introduced 4 qualifying dates per year: January 1, April 1, July 1, and October 1 — giving citizens more opportunities to register throughout the year.",
+    "source": "Election Laws (Amendment) Act, 2021",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "elig_015",
+    "category": "special_cases",
+    "question": "What is the Voter Helpline number?",
+    "rule": "The National Voter Helpline number is 1950.",
+    "details": "You can call 1950 to get information about voter registration, find your booth, check your name on the electoral roll, or report electoral malpractice. The helpline is available in multiple languages.",
+    "source": "Election Commission of India",
+    "source_url": "https://eci.gov.in/contact-us/"
+  }
+]

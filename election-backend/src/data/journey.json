@@ -1,0 +1,132 @@
+[
+  {
+    "id": "stage_001",
+    "step_number": 1,
+    "title": "Check Your Eligibility",
+    "short_description": "Confirm you meet the age, citizenship, and residence requirements to vote.",
+    "full_description": "Before registering, confirm you are an Indian citizen, at least 18 years old on the qualifying date, and ordinarily resident in the constituency where you wish to register. You must not be disqualified under any election law.",
+    "tasks": [
+      "Confirm you are an Indian citizen",
+      "Confirm you are 18 years or older (or will be by the next qualifying date)",
+      "Confirm you have a permanent address in the constituency where you want to register",
+      "Check you are not disqualified under any court order or election law"
+    ],
+    "documents_needed": [
+      "Age proof: Birth certificate, school certificate, or passport",
+      "Address proof: Aadhaar card, utility bill, or bank passbook"
+    ],
+    "action_link": "https://eci.gov.in/faqs/elections/voters-faqs/",
+    "action_link_label": "Read ECI Eligibility Guidelines",
+    "did_you_know": "From 2023, India has 4 qualifying dates per year (Jan 1, Apr 1, Jul 1, Oct 1), so you can register as soon as you turn 18 — you don't have to wait until the next January.",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "stage_002",
+    "step_number": 2,
+    "title": "Register as a Voter",
+    "short_description": "Submit Form 6 online or offline to get your Voter ID (EPIC).",
+    "full_description": "If you are a first-time voter or have moved to a new constituency, you must register using Form 6. You can do this online via the National Voter Service Portal (NVSP) or at your nearest Electoral Registration Office. After verification, your Elector's Photo Identity Card (EPIC) will be issued.",
+    "tasks": [
+      "Visit voters.eci.gov.in and click 'Register as New Voter'",
+      "Fill Form 6 with your personal details, address, and upload a photograph",
+      "Upload your age proof and address proof documents",
+      "Submit the form and note down your application reference number",
+      "Track your application status on the NVSP portal"
+    ],
+    "documents_needed": [
+      "Recent passport-size photograph",
+      "Age proof: Birth certificate, school leaving certificate, PAN card, or passport",
+      "Address proof: Aadhaar card, passport, bank passbook, utility bill, or ration card"
+    ],
+    "action_link": "https://voters.eci.gov.in/",
+    "action_link_label": "Register on NVSP Portal",
+    "did_you_know": "You can also download your e-EPIC (digital Voter ID) immediately after registration approval, directly from the NVSP portal — no need to wait for a physical card.",
+    "source_url": "https://voters.eci.gov.in/"
+  },
+  {
+    "id": "stage_003",
+    "step_number": 3,
+    "title": "Verify Your Name on the Electoral Roll",
+    "short_description": "Confirm your name appears correctly on the final voter list before election day.",
+    "full_description": "Even if you have voted before, it is essential to verify your name on the electoral roll before every election. The roll is updated periodically, and names can sometimes be missing or incorrect. Verification takes under 2 minutes online.",
+    "tasks": [
+      "Go to voters.eci.gov.in and click 'Search in Electoral Roll'",
+      "Enter your name, date of birth, and state — or enter your EPIC number directly",
+      "Confirm your name, photo, and polling booth details are correct",
+      "If your name is missing, submit Form 6 immediately",
+      "If details are wrong, submit Form 8 to request a correction"
+    ],
+    "documents_needed": [
+      "Your EPIC number (from Voter ID card) OR",
+      "Your full name, date of birth, and state of residence"
+    ],
+    "action_link": "https://electoralsearch.eci.gov.in/",
+    "action_link_label": "Search Electoral Roll",
+    "did_you_know": "The electoral roll is constantly updated. Even if you voted in the last election, always check your name before the next one — Booth Level Officers conduct house-to-house verification and names can change.",
+    "source_url": "https://electoralsearch.eci.gov.in/"
+  },
+  {
+    "id": "stage_004",
+    "step_number": 4,
+    "title": "Find Your Polling Booth",
+    "short_description": "Locate the exact polling station where you are assigned to vote.",
+    "full_description": "Every voter is assigned to a specific polling booth based on their registered address. You cannot vote at a booth other than your assigned one. You can find your booth details online using your EPIC number or name, or check your Voter Information Slip which is distributed before elections.",
+    "tasks": [
+      "Go to voters.eci.gov.in and use 'Search in Electoral Roll' to find your booth details",
+      "Note your polling station name, number, and full address",
+      "Look up the booth location on a map app so you know exactly how to get there",
+      "Check booth accessibility if you have any mobility requirements",
+      "Keep your Voter Information Slip (distributed before election day) safely"
+    ],
+    "documents_needed": [
+      "EPIC number OR full name and date of birth for online search"
+    ],
+    "action_link": "https://electoralsearch.eci.gov.in/",
+    "action_link_label": "Find My Polling Booth",
+    "did_you_know": "Polling stations are usually set up in public buildings like schools and community centres. The ECI mandates that no voter should have to travel more than 2 km to reach their polling booth.",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "stage_005",
+    "step_number": 5,
+    "title": "Prepare for Polling Day",
+    "short_description": "Know what to carry, what to expect, and when to arrive at your booth.",
+    "full_description": "On polling day, booths open at 7:00 AM and close at 6:00 PM (timings may vary slightly by state and ECI notification). You must carry an approved photo ID. Mobile phones and cameras are NOT permitted inside the polling booth. Arrive early to avoid queues.",
+    "tasks": [
+      "Carry your Voter ID (EPIC) OR any one of the 12 ECI-approved alternate photo IDs",
+      "Bring your Voter Information Slip if you received one (optional but useful)",
+      "Leave your mobile phone, camera, and political materials outside the booth",
+      "Arrive at the booth — queues are typically shortest in the first 2 hours of opening",
+      "If you are elderly, pregnant, or have a disability, you are entitled to priority assistance at the booth"
+    ],
+    "documents_needed": [
+      "Voter ID (EPIC) OR any one of: Aadhaar Card, PAN Card, Driving Licence, Passport, MNREGA Job Card, Bank/Post Office Passbook with photo, Pension document with photo, Service Identity Card with photo, Health Insurance Smart Card, NPR Smart Card, MP/MLA/MLC identity card, UDID Card"
+    ],
+    "action_link": "https://eci.gov.in/faqs/elections/voters-faqs/",
+    "action_link_label": "ECI Polling Day Guidelines",
+    "did_you_know": "Polling stations must provide basic facilities including drinking water, a waiting shed, and wheelchair ramps for differently-abled voters. You can report missing facilities to the ECI.",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "stage_006",
+    "step_number": 6,
+    "title": "Cast Your Vote",
+    "short_description": "Understand the EVM process, VVPAT verification, and NOTA option inside the booth.",
+    "full_description": "Inside the polling compartment, you will see the Electronic Voting Machine (EVM). Press the blue button next to your chosen candidate's name and symbol. A beep confirms your vote. The VVPAT machine beside it will show a printed slip of your voted candidate for 7 seconds for your verification, then drop it into a sealed box.",
+    "tasks": [
+      "Show your ID to the polling officer and get your finger inked",
+      "Sign or put your thumb impression in the register",
+      "Enter the polling compartment alone — no one else is allowed inside",
+      "Press the blue button on the EVM next to your chosen candidate",
+      "Verify the VVPAT slip that appears (shows candidate name and symbol for 7 seconds)",
+      "Exit the booth — your vote is complete"
+    ],
+    "documents_needed": [
+      "The same ID you carried to the booth — polling officer may ask to see it again"
+    ],
+    "action_link": "https://eci.gov.in/getting-to-know-evm-vvpat/",
+    "action_link_label": "Learn About EVM and VVPAT",
+    "did_you_know": "If you do not wish to vote for any candidate, you can press the NOTA (None Of The Above) button — the last option on the EVM. Your vote is counted and recorded, but it does not benefit any candidate.",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  }
+]

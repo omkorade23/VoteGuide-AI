@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phase_001",
+    "phase_number": 1,
+    "title": "Election Notification",
+    "icon_key": "notification",
+    "short_description": "The Election Commission officially announces the election schedule.",
+    "full_description": "The Election Commission of India issues a formal notification announcing the election schedule. This triggers the Model Code of Conduct (MCC) which immediately restricts the ruling government from announcing new policies or schemes. The notification specifies the last date for filing nominations.",
+    "voter_action": "Check the announcement for your constituency's polling date. Verify your name is on the electoral roll immediately — this is your last chance to correct missing details.",
+    "key_fact": "The Model Code of Conduct comes into effect from the moment the election schedule is announced and remains until the results are declared.",
+    "typical_duration": "1 day (the announcement itself)",
+    "source_url": "https://eci.gov.in/model-code-of-conduct/"
+  },
+  {
+    "id": "phase_002",
+    "phase_number": 2,
+    "title": "Nomination",
+    "icon_key": "nomination",
+    "short_description": "Candidates file their nomination papers with the Returning Officer.",
+    "full_description": "Any eligible citizen can stand as a candidate by filing a nomination paper with the Returning Officer of their constituency. Candidates must submit a declaration of assets, liabilities, criminal records (if any), and educational qualifications. A security deposit is also required.",
+    "voter_action": "Review the list of candidates filing nominations for your constituency. Their declarations including criminal cases and assets are public documents — you can read them on the ECI affidavit portal.",
+    "key_fact": "Candidates must disclose all criminal cases against them in their nomination affidavit. This information is public and accessible to all voters.",
+    "typical_duration": "Typically 7 to 14 days",
+    "source_url": "https://eci.gov.in/faqs/elections/candidates-faqs/"
+  },
+  {
+    "id": "phase_003",
+    "phase_number": 3,
+    "title": "Scrutiny and Withdrawal",
+    "icon_key": "scrutiny",
+    "short_description": "Nomination papers are reviewed and candidates can withdraw their candidacy.",
+    "full_description": "The Returning Officer scrutinises all nomination papers for validity. Nominations can be rejected if they are incomplete or if the candidate is legally ineligible. After scrutiny, there is a window during which candidates can voluntarily withdraw their candidacy. The final list of contesting candidates is then published.",
+    "voter_action": "After this phase, the final list of candidates in your constituency is confirmed. Review who will actually appear on your ballot so you are prepared before polling day.",
+    "key_fact": "Candidates have only 2 days after scrutiny to withdraw. After this window closes, the ballot is finalised.",
+    "typical_duration": "2 to 3 days",
+    "source_url": "https://eci.gov.in/faqs/elections/candidates-faqs/"
+  },
+  {
+    "id": "phase_004",
+    "phase_number": 4,
+    "title": "Election Campaign",
+    "icon_key": "campaign",
+    "short_description": "Political parties and candidates campaign to win voter support.",
+    "full_description": "During the campaign period, candidates and political parties hold rallies, door-to-door outreach, and media campaigns. All activities are subject to the Model Code of Conduct. Paid news, distribution of cash or gifts to voters, and use of government resources for campaigning are prohibited and punishable offences.",
+    "voter_action": "Attend public meetings, watch candidate debates, and read candidates' manifestos. Be aware that vote-buying (offering cash, gifts, or free services in exchange for votes) is illegal — you can report it to the ECI.",
+    "key_fact": "All campaigning must stop 48 hours before polling begins. This is called the 'Silent Period' and is strictly enforced to allow voters to make decisions without last-minute pressure.",
+    "typical_duration": "14 to 21 days",
+    "source_url": "https://eci.gov.in/model-code-of-conduct/"
+  },
+  {
+    "id": "phase_005",
+    "phase_number": 5,
+    "title": "Polling Day",
+    "icon_key": "polling",
+    "short_description": "Voters cast their ballots at designated polling stations using Electronic Voting Machines.",
+    "full_description": "On polling day, registered voters visit their assigned polling station between 7:00 AM and 6:00 PM (times may vary by ECI notification). Voters show photo ID, get their finger inked, and press a button on the EVM to cast their vote. The VVPAT machine provides a paper trail for verification. Security personnel are deployed at every booth.",
+    "voter_action": "Carry your approved photo ID. Do not bring mobile phones, cameras, or any political material into the booth. If your name is on the roll, you have the right to vote — polling officers cannot turn you away without valid reason.",
+    "key_fact": "The ink applied to your left index finger (Indelible Ink) is specially formulated to last several weeks and cannot be washed off, preventing multiple voting.",
+    "typical_duration": "1 day (or multiple days for phased elections)",
+    "source_url": "https://eci.gov.in/faqs/elections/voters-faqs/"
+  },
+  {
+    "id": "phase_006",
+    "phase_number": 6,
+    "title": "Counting and Results",
+    "icon_key": "results",
+    "short_description": "EVMs are opened and votes are counted under strict supervision to declare the winner.",
+    "full_description": "On counting day, EVMs from all booths are opened and tallied at a central counting centre under the supervision of the Returning Officer, candidates, and authorised counting agents. Results are declared round by round. The candidate with the highest number of votes in the constituency wins — this is the First Past The Post system. There is no requirement for a majority.",
+    "voter_action": "Follow results on the ECI results portal at results.eci.gov.in or on major news channels. If any candidate believes there was an irregularity, they can petition the High Court through an Election Petition within 45 days of the result.",
+    "key_fact": "India uses the First Past The Post (FPTP) system — the candidate with the most votes wins, even without a majority. A candidate can win with as little as 25% of the vote if votes are split among many candidates.",
+    "typical_duration": "1 day",
+    "source_url": "https://results.eci.gov.in/"
+  }
+]
