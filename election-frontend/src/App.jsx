@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
-import Footer from './components/Footer.jsx';
 import LandingPage from './pages/LandingPage.jsx';
 import JourneyPage from './pages/JourneyPage.jsx';
 import TimelinePage from './pages/TimelinePage.jsx';
@@ -22,7 +21,6 @@ export default function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
-        <Footer />
       </div>
     </BrowserRouter>
   );

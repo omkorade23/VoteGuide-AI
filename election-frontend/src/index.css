@@ -17,7 +17,48 @@
 }
 
 @layer utilities {
-  .animate-bounce-dot {
-    animation: bounce 1s infinite;
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 20px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: #9ca3af;
+  }
+
+  /* Chat messages scrollbar — green theme */
+  .chat-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #22c55e transparent;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar-thumb {
+    background: #22c55e;
+    border-radius: 10px;
+  }
+
+  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #16a34a;
   }
 }

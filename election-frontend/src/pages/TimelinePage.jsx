@@ -91,7 +91,7 @@ export default function TimelinePage() {
 
         {!loading && !error && (
           <div className="relative">
-            {/* Vertical line */}
+            {/* Vertical line — left-6 = 24px, half of w-0.5 = 1px → center at 24.5px */}
             <div className="absolute left-6 md:left-8 top-0 bottom-0 w-0.5 bg-gray-200" />
 
             <div className="ml-16 md:ml-20 space-y-4">
@@ -102,9 +102,9 @@ export default function TimelinePage() {
 
                 return (
                   <div key={phase.id} id={`timeline-phase-${phase.phase_number}`} className="relative">
-                    {/* Node circle on line */}
+                    {/* Node circle — -left-14 md:-left-16 centers the 32px node on the vertical line */}
                     <div
-                      className={`absolute -left-10 md:-left-12 top-6 w-8 h-8 rounded-full flex items-center justify-center ${node} border-2 border-white shadow-sm`}
+                      className={`absolute -left-14 md:-left-16 top-6 w-8 h-8 rounded-full flex items-center justify-center ${node} border-2 border-white shadow-sm`}
                     >
                       <Icon size={16} />
                     </div>

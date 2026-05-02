@@ -11,12 +11,11 @@ import {
   Building2,
   Users,
   ChevronDown,
-  Lightbulb,
   MapPin,
   ClipboardList,
 } from 'lucide-react';
+import Footer from '../components/Footer.jsx';
 
-// ─── FAQ Data ───────────────────────────────────────────────────────────────
 const faqs = [
   {
     q: 'Can I vote without voter ID?',
@@ -44,35 +43,33 @@ const faqs = [
   },
 ];
 
-// ─── Features Data ───────────────────────────────────────────────────────────
 const features = [
   {
     icon: Zap,
     color: 'bg-yellow-50 text-yellow-600',
     title: 'Learn in 60 Seconds',
-    desc: 'Quick, clear and easy explanations for everyone.',
+    desc: 'Bite-sized, plain-language explanations covering every stage of the Indian election process.',
   },
   {
     icon: Globe,
     color: 'bg-blue-50 text-blue-600',
     title: 'Made for Every Indian',
-    desc: 'Information in simple English and regional languages.',
+    desc: "Available in English, Hindi, Tamil, and Marathi — built for India's 1.4 billion citizens.",
   },
   {
     icon: Bot,
     color: 'bg-purple-50 text-purple-600',
     title: 'AI-Powered Answers',
-    desc: 'Ask anything about elections and get instant, reliable answers.',
+    desc: 'Ask any election question in plain language and receive an instant, grounded answer.',
   },
   {
     icon: Shield,
     color: 'bg-green-50 text-green-600',
     title: 'Verified & Reliable',
-    desc: 'All information is sourced directly from the Election Commission of India.',
+    desc: 'Every answer is grounded in official Election Commission of India data — no guesswork.',
   },
 ];
 
-// ─── "What you can do" cards ──────────────────────────────────────────────
 const doCards = [
   {
     to: '/journey',
@@ -80,7 +77,7 @@ const doCards = [
     iconColor: 'text-green-600',
     Icon: ClipboardList,
     title: 'Step-by-Step Journey',
-    desc: 'Understand the entire voting process in simple steps.',
+    desc: 'Understand the entire voting process in simple, guided steps.',
   },
   {
     to: '/eligibility',
@@ -88,7 +85,7 @@ const doCards = [
     iconColor: 'text-blue-600',
     Icon: CheckCircle,
     title: 'Check Your Eligibility',
-    desc: 'Find out if you are eligible to vote and know the requirements.',
+    desc: 'Find out if you meet the requirements to vote in India.',
   },
   {
     to: '/timeline',
@@ -96,7 +93,7 @@ const doCards = [
     iconColor: 'text-orange-500',
     Icon: MapPin,
     title: 'Explore Timeline',
-    desc: 'Browse important dates and events in the election process.',
+    desc: 'Understand every phase of an Indian election from announcement to results.',
   },
   {
     to: '/chat',
@@ -104,16 +101,15 @@ const doCards = [
     iconColor: 'text-purple-600',
     Icon: Bot,
     title: 'Ask AI Assistant',
-    desc: 'Get instant help for all your election-related questions.',
+    desc: 'Get instant, reliable answers to any election-related question.',
   },
 ];
 
-// ─── FAQ Accordion ────────────────────────────────────────────────────────
 function FaqItem({ faq, index, openIndex, setOpenIndex }) {
   const isOpen = openIndex === index;
   return (
     <div
-      className="bg-white border border-gray-200 rounded-xl p-6 cursor-pointer select-none"
+      className="bg-white border border-gray-200 rounded-xl p-6 cursor-pointer select-none hover:border-green-200 transition-colors"
       onClick={() => setOpenIndex(isOpen ? null : index)}
       id={`faq-item-${index}`}
     >
@@ -133,19 +129,18 @@ function FaqItem({ faq, index, openIndex, setOpenIndex }) {
   );
 }
 
-// ─── App Preview Mockups ──────────────────────────────────────────────────
 function JourneyMockup() {
   const steps = [
-    { n: 1, label: 'Step 1 of 6', title: 'Check Eligibility', desc: "Let's find out if you are eligible to vote." },
-    { n: 2, label: 'Step 2 of 6', title: 'Register to Vote', desc: 'Fill out Form 6 at the official portal.' },
-    { n: 3, label: 'Step 3 of 6', title: 'Get Your EPIC', desc: 'Receive your Voter ID card.' },
+    { n: 1, label: 'Step 1 of 6', title: 'Check Eligibility', desc: 'Confirm your age and citizenship.' },
+    { n: 2, label: 'Step 2 of 6', title: 'Register to Vote', desc: 'Fill Form 6 at voters.eci.gov.in.' },
+    { n: 3, label: 'Step 3 of 6', title: 'Verify Your Name', desc: 'Confirm your name is on the roll.' },
   ];
   return (
     <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6">
       <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">Journey Overview</p>
       <div className="relative">
         <div className="absolute left-3.5 top-0 bottom-0 w-px bg-gray-200" />
-        {steps.map((s, i) => (
+        {steps.map((s) => (
           <div key={s.n} className="flex gap-4 mb-4 last:mb-0 relative">
             <div className="w-7 h-7 rounded-full bg-green-600 text-white text-xs font-bold flex items-center justify-center flex-shrink-0 z-10">
               {s.n}
@@ -158,9 +153,9 @@ function JourneyMockup() {
           </div>
         ))}
       </div>
-      <button className="mt-4 w-full bg-green-600 text-white text-xs font-semibold py-2 rounded-lg">
+      <div className="mt-4 w-full bg-green-600 text-white text-xs font-semibold py-2 rounded-lg text-center">
         Continue
-      </button>
+      </div>
     </div>
   );
 }
@@ -200,19 +195,15 @@ function ChatMockup() {
     <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6">
       <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">AI Assistant</p>
       <div className="space-y-3">
-        {/* User bubble */}
         <div className="flex justify-end">
           <div className="bg-green-600 text-white text-xs rounded-2xl rounded-tr-sm px-4 py-2 max-w-[80%]">
             Can I vote without voter ID?
           </div>
         </div>
-        {/* AI bubble */}
         <div className="flex justify-start">
           <div className="bg-gray-50 border border-gray-200 text-gray-700 text-xs rounded-2xl rounded-tl-sm px-4 py-2 max-w-[90%]">
-            Yes, you can vote without Voter ID if you have any of the following valid documents: Aadhaar Card, PAN Card, Passport, Driving Licence or other approved documents.
-            <p className="text-gray-400 text-xs mt-1 pt-1 border-t border-gray-100">
-              source: eci.gov.in
-            </p>
+            Yes, you can vote using any of 12 ECI-approved IDs: Aadhaar, PAN Card, Passport, Driving Licence, or other approved documents.
+            <p className="text-gray-400 text-xs mt-1 pt-1 border-t border-gray-100">source: eci.gov.in</p>
           </div>
         </div>
       </div>
@@ -228,33 +219,31 @@ function ChatMockup() {
   );
 }
 
-// ─── Main Landing Page ────────────────────────────────────────────────────
 export default function LandingPage() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
     <div>
       {/* ── 1. HERO ── */}
-      <section className="bg-white py-20 md:py-28 overflow-hidden">
+      <section id="section-hero" className="bg-white py-20 md:py-28 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left: Text */}
             <div>
-              {/* Trust badge */}
               <div className="inline-flex items-center gap-2 bg-green-50 border border-green-100 text-green-700 text-xs font-semibold px-4 py-2 rounded-full mb-6">
                 <CheckCircle size={13} />
-                Trusted. Verified. Powered by ECI data.
+                Trusted. Verified. Built on official ECI data.
               </div>
 
               <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight mb-5">
-                Demystifying the{' '}
-                <span className="text-green-600">Election</span>{' '}
-                Process
+                Understand Elections.{' '}
+                <span className="text-green-600">Vote with</span>{' '}
+                Confidence.
               </h1>
 
               <p className="text-lg text-gray-500 leading-relaxed mb-8 max-w-lg">
-                A simple, guided way to understand how voting works in India. From eligibility to
-                election day — we&apos;ve got you covered.
+                A simple, guided platform to help every Indian citizen navigate the election process
+                — from eligibility to casting your vote.
               </p>
 
               <div className="flex flex-wrap items-center gap-4 mb-8">
@@ -263,7 +252,7 @@ export default function LandingPage() {
                   id="hero-cta-journey"
                   className="inline-flex items-center gap-2 bg-green-600 text-white font-semibold px-7 py-3.5 rounded-full hover:bg-green-700 transition-all duration-200 shadow-md hover:shadow-lg"
                 >
-                  Start Your Journey
+                  Start Exploring
                   <ArrowRight size={17} />
                 </Link>
                 <Link
@@ -276,7 +265,6 @@ export default function LandingPage() {
                 </Link>
               </div>
 
-              {/* Trust signals */}
               <div className="flex flex-wrap items-center gap-5 text-sm text-gray-500">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle size={14} className="text-green-500" />
@@ -288,14 +276,13 @@ export default function LandingPage() {
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle size={14} className="text-green-500" />
-                  For Every Indian
+                  Built using official ECI data
                 </span>
               </div>
             </div>
 
             {/* Right: Decorative Illustration */}
             <div className="relative flex items-center justify-center h-80 lg:h-96">
-              {/* Background circles */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-72 h-72 rounded-full bg-green-50 opacity-60" />
               </div>
@@ -303,9 +290,7 @@ export default function LandingPage() {
               <div className="absolute bottom-8 left-8 w-12 h-12 rounded-full bg-blue-50 opacity-80" />
               <div className="absolute top-12 left-16 w-8 h-8 rounded-full bg-yellow-50" />
 
-              {/* Icon cards floating */}
               <div className="relative z-10 flex flex-col gap-4 items-center">
-                {/* Main large icon */}
                 <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 flex flex-col items-center gap-3">
                   <div className="w-20 h-20 rounded-2xl bg-green-50 flex items-center justify-center">
                     <Vote size={40} className="text-green-600" />
@@ -314,7 +299,6 @@ export default function LandingPage() {
                   <p className="text-xs text-gray-500">Every vote counts in a democracy</p>
                 </div>
 
-                {/* Two smaller floating cards */}
                 <div className="flex gap-4">
                   <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-4 flex items-center gap-3">
                     <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center">
@@ -342,7 +326,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── 2. FEATURES STRIP ── */}
-      <section className="bg-gray-50 py-20">
+      <section id="section-features" className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((f) => (
@@ -361,8 +345,8 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ── 3. WHAT YOU CAN DO HERE ── */}
-      <section className="bg-white py-20 md:py-24">
+      {/* ── 3. WHAT YOU CAN DO HERE — id="explore" for Navbar ── */}
+      <section id="explore" className="bg-white py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
@@ -401,8 +385,8 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ── 4. APP PREVIEW ── */}
-      <section className="bg-slate-50 py-20 md:py-24">
+      {/* ── 4. APP PREVIEW — id="how-it-works" for Navbar ── */}
+      <section id="how-it-works" className="bg-slate-50 py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
@@ -422,7 +406,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── 5. FAQ ── */}
-      <section className="bg-white py-20 md:py-24">
+      <section id="faqs" className="bg-white py-20 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
@@ -447,39 +431,10 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ── 6. CTA BANNER ── */}
-      <section className="bg-green-600 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 text-white text-xs font-semibold px-4 py-2 rounded-full mb-5">
-            <Lightbulb size={13} />
-            Start your democratic journey today
-          </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mb-4">
-            Your voice shapes India's future
-          </h2>
-          <p className="text-green-100 text-lg mb-8 max-w-xl mx-auto">
-            Understand the process, exercise your right, and be the change.
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link
-              to="/journey"
-              id="cta-banner-journey"
-              className="inline-flex items-center gap-2 bg-white text-green-700 font-bold px-8 py-3.5 rounded-full hover:bg-green-50 transition-colors shadow-lg"
-            >
-              Start Your Journey
-              <ArrowRight size={17} />
-            </Link>
-            <Link
-              to="/chat"
-              id="cta-banner-chat"
-              className="inline-flex items-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/20 transition-colors"
-            >
-              <Bot size={16} />
-              Ask AI Assistant
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* ── FOOTER — id="contact" for Navbar ── */}
+      <div id="contact">
+        <Footer />
+      </div>
     </div>
   );
 }
